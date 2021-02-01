@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Animation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2 class="name">Product Name</h2>
+            <a href="#" class="buy">Buy Now</a>
+            <div class="circle"></div>
+            <img src="images/nike.png" class="product">
+        </div>
+        <div class="box2">
+            <h2 class="name">Product Name</h2>
+            <a href="#" class="buy">Buy Now</a>
+            <div class="circle"></div>
+            <img src="images/whale.png" class="product">
+        </div>
+        <div class="box3">
+            <h2 class="name">Product Name</h2>
+            <a href="#" class="buy">Buy Now</a>
+            <div class="circle"></div>
+            <img src="images/ship.png" class="product">
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+		max: 25,
+		speed: 400
+	});
+    </script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".box2"), {
+		max: 25,
+		speed: 400
+	});
+    </script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".box3"), {
+		max: 25,
+		speed: 400
+	});
+    </script>
+</body>
+</html>
